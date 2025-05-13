@@ -56,14 +56,15 @@
     margin: 20px auto; 
 }
 
-.container__preparation-image, 
-.container__instruction-image {
-    flex-shrink: 0; 
-    width: 80px;
-    height: 80px;
+.container__instruction-image,
+.container__preparation-image {
+    width: 150px;
+    height: 150px;
     border-radius: 10px; 
     align-self: center; 
-    margin-right: 150px;
+    margin: auto;
+    justify-content: center;
+    padding-top: 30px;
 }
 
 .container__preparation, 
@@ -137,4 +138,16 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+#button {
+    margin-left: 200px;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.button__container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
 }
