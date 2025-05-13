@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    height: auto; 
+    background-color: yellowgreen;
+}
+
+.container__header {
+    background-color: rgb(38, 63, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    margin: auto;
+    flex-direction: column; 
+}
+
+.container__header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: auto;
+}
+
+.container__header-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    align-self: right;
+}
+
+.container__intro {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 4px;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    width: 60%;
+    margin: 20px auto; 
+}
+
+.container__preparation-image, 
+.container__instruction-image {
+    flex-shrink: 0; 
+    width: 80px;
+    height: 80px;
+    border-radius: 10px; 
+    align-self: center; 
+    margin-right: 150px;
+}
+
+.container__preparation, 
+.container__instructions {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 4px;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+    width: 60%;
+    margin: 20px auto; 
+    text-align: left;
+}
+
+.container__preparation h2, 
+.container__instructions h2 {
+    text-align: center;
+    width: 20%; 
+    margin-bottom: 20px; 
+    margin: 0 0 20px 0;
+}
+
+.container__preparation ul, 
+.container__instructions ol {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.container__footer {
+    background-color: rgb(38, 63, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    margin: auto;
+    flex-direction: column; 
+    width: 100%;
+}
+
+.container__footer-props a{
+    color: white;
+    font-size: 15px;
+}
+
+.container__footer-props a:hover{
+    color: blue;
+}
