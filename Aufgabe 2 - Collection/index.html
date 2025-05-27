@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Song Collection</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <header class="container__header">
@@ -14,50 +14,50 @@
         </div>
     </header>
     <main class="container">
-        <div class="container__cards">
-            <article class="container__card">
-                <img src="img/borderline.png" alt="Borderline - Tame Impala" class="container__header-image" onClick="redirectToSong(event)">
-                <div class="container__card-text" id="borderline">
-                    <h2>Borderline<br><Span class="container__card-text-year">2019</Span></h2>
-                </div>
-            </article>
-            <article class="container__card" id="creep">
-                <img src="img/creep.png" alt="Creep - Radiohead" class="container__header-image" onClick=redirectToSong(event)>
+        <ul class="container__cards">
+            <li class="container__card" id="borderline">
+                <img src="img/borderline.png" alt="Borderline - Tame Impala" class="container__header-image" onClick="redirectToSong(event)" />
                 <div class="container__card-text">
-                    <h2>Creep<br><Span class="container__card-text-year">1992</Span></h2>
+                    <h2>Borderline<br /><span class="container__card-text-year">2019</span></h2>
                 </div>
-            </article>
-            <article class="container__card" id="dietmountaindew">
-                <img src="img/dietmountaindew.png" alt="Diet Mountain Dew - Lana del Rey" class="container__header-image" onClick=redirectToSong(event)>
+            </li>
+            <li class="container__card" id="creep">
+                <img src="img/creep.png" alt="Creep - Radiohead" class="container__header-image" onClick="redirectToSong(event)" />
                 <div class="container__card-text">
-                    <h2>Diet Mountain Dew<br><Span class="container__card-text-year">2012</Span></h2>
+                    <h2>Creep<br /><span class="container__card-text-year">1992</span></h2>
                 </div>
-            </article>
-            <article class="container__card" id="nothingelsematters">
-                <img src="img/nothingelsematters.png" alt="Nothing Else Matters - Metallica" class="container__header-image" onClick=redirectToSong(event)>
+            </li>
+            <li class="container__card" id="dietmountaindew">
+                <img src="img/dietmountaindew.png" alt="Diet Mountain Dew - Lana del Rey" class="container__header-image" onClick="redirectToSong(event)" />
                 <div class="container__card-text">
-                    <h2>Nothing else Matters<br><Span class="container__card-text-year">1991</Span></h2>
+                    <h2>Diet Mountain Dew<br /><span class="container__card-text-year">2012</span></h2>
                 </div>
-            </article>
-            <article class="container__card" id="perspectives"> 
-                <img src="img/perspectives.png" alt="Perspectives - Orbit" class="container__header-image" onClick=redirectToSong(event)>
+            </li>
+            <li class="container__card" id="nothingelsematters">
+                <img src="img/nothingelsematters.png" alt="Nothing Else Matters - Metallica" class="container__header-image" onClick="redirectToSong(event)" />
                 <div class="container__card-text">
-                    <h2>Perspectives<br><Span class="container__card-text-year">2020</Span></h2>
+                    <h2>Nothing else Matters<br /><span class="container__card-text-year">1991</span></h2>
                 </div>
-            </article>
-            <article class="container__card" id="wearethepeople">
-                <img src="img/wearethepeople.png" alt="We are the People - Empire of the Sun" class="container__header-image" onClick=redirectToSong(event)>
+            </li>
+            <li class="container__card" id="perspectives">
+                <img src="img/perspectives.png" alt="Perspectives - Orbit" class="container__header-image" onClick="redirectToSong(event)" />
                 <div class="container__card-text">
-                    <h2>We are the People<br><Span class="container__card-text-year">2008</Span></h2>
+                    <h2>Perspectives<br /><span class="container__card-text-year">2020</span></h2>
                 </div>
-            </article>
-        </div> 
-        <footer class="container__footer">  
+            </li>
+            <li class="container__card" id="wearethepeople">
+                <img src="img/wearethepeople.png" alt="We are the People - Empire of the Sun" class="container__header-image" onClick="redirectToSong(event)" />
+                <div class="container__card-text">
+                    <h2>We are the People<br /><span class="container__card-text-year">2008</span></h2>
+                </div>
+            </li>
+        </ul>
+        <footer class="container__footer">
             <div class="container__footer-props">
                 <a href="https://music.apple.com/de">Source</a>
             </div>
-        </footer>  
+        </footer>
     </main>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
